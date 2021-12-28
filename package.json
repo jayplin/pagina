@@ -15,13 +15,16 @@
     "@vueuse/core": "^7.4.1",
     "@vueuse/head": "^0.7.4",
     "nprogress": "^0.2.0",
+    "panzoom": "^9.4.2",
     "pinia": "^2.0.9",
     "prism-theme-vars": "^0.2.2",
     "svg-pan-zoom": "^3.6.1",
     "vue": "^3.2.26",
     "vue-demi": "^0.12.1",
     "vue-i18n": "^9.1.9",
-    "vue-router": "^4.0.12"
+    "vue-inline-svg": "^3.1.0",
+    "vue-router": "^4.0.12",
+    "vue-simple-svg": "^2.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.14.0",
