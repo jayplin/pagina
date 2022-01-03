@@ -24,9 +24,18 @@ export default defineConfig({
               'textDecoration': 'underline',
               '&:hover': {
                 opacity: 1,
-                color: colors.teal[600],
+                color: colors.fuchsia[600],
               },
             },
+            btn: {
+              'color': 'inherit',
+              'opacity': 0.75,
+              'fontWeight': '500',
+              'textDecoration': 'underline',
+              '&:hover': {
+                opacity: 1,
+                color: colors.fuchsia[600],
+              },
             b: { color: 'inherit' },
             strong: { color: 'inherit' },
             em: { color: 'inherit' },

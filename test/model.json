@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "Title": "01. KOLLEKTIVE",
+                "Description": "JAN 21 – Durch den Individualismus im Design wurden nicht nur Frauen in der Vergangenheit aus der Geschichte des Designs ausgegrenzt, auch die Bandbreite an Kommunikation, Ausdruck, Konzepten und Techniken geht verloren. In kolla- borativen Arbeitsprozessen, mit mehreren Perspektiven, mehreren Skillsets lässt sich im kreativen Prozess ein viel größeres Potential und spannendere Ergebnis- se erzielen.",
+                "createdAt": "2021-12-28T17:46:57.245Z",
+                "updatedAt": "2021-12-30T03:44:30.728Z",
+                "Svg": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "sVGNEU-01.svg",
+                            "alternativeText": "sVGNEU-01.svg",
+                            "caption": "sVGNEU-01.svg",
+                            "width": 1920,
+                            "height": 1080,
+                            "formats": null,
+                            "hash": "s_VGNEU_01_84e18fcc8d",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 5259.63,
+                            "url": "/uploads/s_VGNEU_01_84e18fcc8d.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2021-12-28T17:46:49.775Z",
+                            "updatedAt": "2021-12-28T17:46:49.775Z"
+                        }
+                    }
+                },
+                "Thumbnail": {
+                    "data": {
+                        "id": 7,
+                        "attributes": {
+                            "name": "1_softandmessy_023.jpg",
+                            "alternativeText": "1_softandmessy_023.jpg",
+                            "caption": "1_softandmessy_023.jpg",
+                            "width": 1684,
+                            "height": 950,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_1_softandmessy_023.jpg",
+                                    "hash": "thumbnail_1_softandmessy_023_44c867df0c",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "width": 245,
+                                    "height": 138,
+                                    "size": 7.21,
+                                    "path": null,
+                                    "url": "/uploads/thumbnail_1_softandmessy_023_44c867df0c.jpg"
+                                }
+                            },
+                            "hash": "1_softandmessy_023_44c867df0c",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 232.02,
+                            "url": "/uploads/1_softandmessy_023_44c867df0c.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2021-12-30T02:45:15.047Z",
+                            "updatedAt": "2021-12-30T02:45:15.047Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "Title": "02. POWERTOOL",
+                "Description": "FEB 21 – Mit der Frauenbewegung ab den Sechziger Jahren wurde auch Grafikdesign vermehrt als Waffe gegen das Patriarchat eingesetzt. Frauen konnten ihren Forderungen und Visionen über Plakate ein Gesicht geben. Da Design immer im Auge der Öffentlichkeit geschieht, ist es ein ideales Werkzeug, um unser Bewusstsein zu formen.\n",
+                "createdAt": "2021-12-30T03:45:11.372Z",
+                "updatedAt": "2021-12-30T16:18:30.601Z",
+                "Svg": {
+                    "data": {
+                        "id": 14,
+                        "attributes": {
+                            "name": "sVGNEU-02.svg",
+                            "alternativeText": "sVGNEU-02.svg",
+                            "caption": "sVGNEU-02.svg",
+                            "width": 1920,
+                            "height": 1080,
+                            "formats": null,
+                            "hash": "s_VGNEU_02_241974aa0d",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 5259.63,
+                            "url": "/uploads/s_VGNEU_02_241974aa0d.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2021-12-30T16:18:23.649Z",
+                            "updatedAt": "2021-12-30T16:18:23.649Z"
+                        }
+                    }
+                },
+                "Thumbnail": {
+                    "data": {
+                        "id": 9,
+                        "attributes": {
+                            "name": "2_softandmessy_02.jpg",
+                            "alternativeText": "2_softandmessy_02.jpg",
+                            "caption": "2_softandmessy_02.jpg",
+                            "width": 1684,
+                            "height": 950,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_2_softandmessy_02.jpg",
+                                    "hash": "thumbnail_2_softandmessy_02_27a271e6c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "width": 245,
+                                    "height": 138,
+                                    "size": 14.9,
+                                    "path": null,
+                                    "url": "/uploads/thumbnail_2_softandmessy_02_27a271e6c7.jpg"
+                                }
+                            },
+                            "hash": "2_softandmessy_02_27a271e6c7",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 432.19,
+                            "url": "/uploads/2_softandmessy_02_27a271e6c7.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2021-12-30T02:45:15.110Z",
+                            "updatedAt": "2021-12-30T02:45:15.110Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}
