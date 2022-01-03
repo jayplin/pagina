@@ -1,5 +1,9 @@
+
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
-    <router-view />
+  <main class="flex h-full">
+    <Left class="basis-1/2" />
+    <div class="overflow-scroll basis-1/2 bg-[rgb(255,150,255)]">
+      <router-view />
+    </div>
   </main>
 </template>
