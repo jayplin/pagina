@@ -23,7 +23,7 @@ export const useMainStore = defineStore('main', {
   },
   actions: {
     async getNewsletters() {
-      fetch('http://localhost:1337/api/newsletters?populate=*', {
+      fetch('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
@@ -47,7 +47,7 @@ export const useMainStore = defineStore('main', {
         })
     },
     async getContent() {
-      fetch('http://localhost:1337/api/content?populate=*', {
+      fetch('https://softandmessy-strapi.herokuapp.com/api/content?populate=*', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
