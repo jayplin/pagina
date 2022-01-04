@@ -14,10 +14,10 @@ const main = useMainStore()
       {{ main.content?.Pitch }}
     </span>
     <img class="p-12" :src="main.content.StackedPhotos?.data?.attributes.url">
-    <span class="text-3xl whitespace-pre-line">
+    <span class="lg:text-3xl text-xl whitespace-pre-line">
       {{ main.content.Introduction }}
     </span>
-    <img class="p-28" :src="main.content.PhotoBelowIntro?.data?.attributes?.url">
+    <img class="lg:p-28 p-12" :src="main.content.PhotoBelowIntro?.data?.attributes?.url">
   </div>
 </template>
 
