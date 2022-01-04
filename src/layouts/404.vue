@@ -12,7 +12,7 @@ const router = useRouter()
     <router-view />
     <div>
       <button
-        class="btn m-3 text-sm mt-8 bg-fuchsia-300 "
+        class="btn m-3 text-sm mt-8"
         @click="router.push('/')"
       >
         Home
