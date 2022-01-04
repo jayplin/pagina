@@ -17,7 +17,7 @@ const main = useMainStore()
       <router-link :to="`/posters/${encodeURIComponent(index + 1)}`">
         <img
           class="py-4"
-          :src="`http://localhost:1337${zine.attributes.Thumbnail.data.attributes.url}`"
+          :src="zine.attributes.Thumbnail.data.attributes.url"
         >
       </router-link>
     </div>

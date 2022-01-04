@@ -20,7 +20,7 @@ main.$subscribe((mutation, state) => {
 </script>
 
 <template>
-  <ZoomArea :svg="`http://localhost:1337${main.getSvg(id)}`" />
+  <ZoomArea :svg="main.getSvg(id)" />
 </template>
 
 <route lang="yaml">

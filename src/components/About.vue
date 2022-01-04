@@ -10,11 +10,11 @@ const main = useMainStore()
     <p class="text-4xl">
       {{ main.content.attributes?.Pitch }}
     </p>
-    <img :src="`http://localhost:1337${main.content.attributes?.StackedPhotos.data.attributes.url}`">
+    <img :src="main.content.attributes?.StackedPhotos.data.attributes.url">
     <p class="text-4xl">
       {{ main.content.attributes?.Introduction }}
     </p>
-    <img class="p-28" :src="`http://localhost:1337${main.content.attributes?.PhotoBelowIntro.data.attributes.url}`">
+    <img class="p-28" :src="main.content.attributes?.PhotoBelowIntro.data.attributes.url">
   </div>
 </template>
 
