@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div id="about" class="text-white p-5">
+  <div id="about" class="text-white p-18">
     <section>
       <About />
     </section>

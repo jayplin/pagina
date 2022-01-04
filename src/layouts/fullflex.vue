@@ -1,6 +1,6 @@
 
 <template>
-  <main class="flex h-full">
+  <main class="lg:flex h-full">
     <router-view />
   </main>
 </template>

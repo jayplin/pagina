@@ -1,6 +1,6 @@
 <template>
-  <Address class="basis-1/2" />
-  <ImprintText class="overflow-scroll basis-1/2 bg-[rgb(255,150,255)]" />
+  <Address class="lg:basis-1/2" />
+  <ImprintText class="overflow-scroll lg:basis-1/2 bg-[rgb(255,150,255)]" />
 </template>
 
 <route lang="yaml">
