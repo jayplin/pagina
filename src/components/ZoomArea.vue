@@ -25,10 +25,12 @@ onMounted(() =>
 
 )
 
+const svgBgColor = computed(() => props.bgColor)
+
 </script>
 
 <template>
-  <div :class="`bg-[${props.bgColor}] overflow-hidden`">
+  <div class="overflow-hidden" :style="`background-color: ${props.bgColor}`">
     <div ref="poster" class="h-full w-full bg-white">
       <!-- <inline-svg src="/news.svg" /> -->
       <img :src="props.svg" alt="">
