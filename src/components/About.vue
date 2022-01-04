@@ -8,13 +8,13 @@ const main = useMainStore()
 <template>
   <div>
     <p class="text-4xl">
-      {{ main.content.attributes?.Pitch }}
+      {{ main.content?.Pitch }}
     </p>
-    <img :src="main.content.attributes?.StackedPhotos.data.attributes.url">
+    <img :src="main.content.StackedPhotos?.data?.attributes.url">
     <p class="text-4xl">
-      {{ main.content.attributes?.Introduction }}
+      {{ main.content.Introduction }}
     </p>
-    <img class="p-28" :src="main.content.attributes?.PhotoBelowIntro.data.attributes.url">
+    <img class="p-28" :src="main.content.PhotoBelowIntro?.data?.attributes?.url">
   </div>
 </template>
 

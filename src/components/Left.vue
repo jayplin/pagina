@@ -26,9 +26,7 @@
         <router-link :to="{ hash: '#zines' }">
           INSTAGRAMM
         </router-link>
-        <router-link :to="{ hash: '#zines' }">
-          CONTACT
-        </router-link>
+        <a href="mailto:someone@yoursite.com">CONTACT</a>
       </div>
     </div>
   </div>

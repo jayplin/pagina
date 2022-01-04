@@ -21,6 +21,10 @@ const go = () => {
     <section id="zines">
       <Zines />
     </section>
+
+    <section>
+      <Order />
+    </section>
   </div>
 </template>
 
