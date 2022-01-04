@@ -22,6 +22,12 @@ export const useMainStore = defineStore('main', {
         return newsletter?.attributes?.Svg.data.attributes.url
       }
     },
+    getSvgColor: (state) => {
+      return (id: number) => {
+        const newsletter = state.newsletters[id - 1]
+        return newsletter?.attributes?.SvgBackgroundColorHex
+      }
+    },
   },
   actions: {
     async getNewsletters() {

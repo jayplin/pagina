@@ -10,6 +10,7 @@ export interface PosterAttributes {
   updatedAt: string
   Svg: SVG
   Thumbnail: SVG
+  SvgBackgroundColorHex: string
 }
 
 export interface SVG {

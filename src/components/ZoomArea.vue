@@ -7,16 +7,16 @@ import {
 // import svgPanZoom from 'svg-pan-zoom'
 import panzoom from 'panzoom'
 
-const props = defineProps<{ svg: string }>()
+const props = defineProps<{ svg: string; bgColor: string }>()
 
-const headline = ref(null)
+const poster = ref(null)
 
 // Before the component is mounted, the value
 // of the ref is `null` which is the default
 // value we've specified above.
 onMounted(() =>
-//   svgPanZoom(headline.value))
-  panzoom(headline.value, {
+//   svgPanZoom(poster.value))
+  panzoom(poster.value, {
     bounds: true,
     boundsPadding: 0.5,
     maxZoom: 3,
@@ -28,8 +28,8 @@ onMounted(() =>
 </script>
 
 <template>
-  <div class="bg-[rgba(15,104,77)] overflow-hidden">
-    <div ref="headline" class="h-full w-full bg-white">
+  <div :class="`bg-[${bgColor}] overflow-hidden`">
+    <div ref="poster" class="h-full w-full bg-white">
       <!-- <inline-svg src="/news.svg" /> -->
       <img :src="props.svg" alt="">
     </div>
