@@ -26,7 +26,7 @@
         <router-link :to="{ hash: '#zines' }">
           INSTAGRAM
         </router-link>
-        <a href="mailto:mail@softandmessy">CONTACT</a>
+        <a href="mailto:mail@softandmessy.de">CONTACT</a>
       </div>
     </div>
   </div>
