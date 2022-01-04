@@ -19,14 +19,14 @@
       </div>
 
       <div class="flex justify-between p-2">
-        <router-link :to="{ hash: '#about'}">
+        <router-link to="/imprint">
           IMPRINT
         </router-link>
 
         <router-link :to="{ hash: '#zines' }">
           INSTAGRAMM
         </router-link>
-        <a href="mailto:someone@yoursite.com">CONTACT</a>
+        <a href="mailto:mail@softandmessy">CONTACT</a>
       </div>
     </div>
   </div>

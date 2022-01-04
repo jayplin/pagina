@@ -1,15 +1,5 @@
 <script setup lang="ts">
 
-const router = useRouter()
-// const go = () => {
-//   if (name.value)
-//     router.push(`/hi/${encodeURIComponent(name.value)}`)
-// }
-
-const go = () => {
-  router.push('/newsletter/january')
-}
-
 </script>
 
 <template>
