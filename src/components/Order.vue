@@ -23,7 +23,7 @@ const main = useMainStore()
       </div>
     </div>
     <div class="flex justify-center">
-      <p class=" text-4xl">
+      <p class=" lg:text-4xl text-3xl">
         FOLLOW FOR MORE
       </p>
     </div>
