@@ -28,7 +28,7 @@ onMounted(() =>
 </script>
 
 <template>
-  <div :class="`bg-[${bgColor}] overflow-hidden`">
+  <div :class="`bg-[${props.bgColor}] overflow-hidden`">
     <div ref="poster" class="h-full w-full bg-white">
       <!-- <inline-svg src="/news.svg" /> -->
       <img :src="props.svg" alt="">

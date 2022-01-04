@@ -6,9 +6,9 @@ import { useMainStore } from './stores/main'
 
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Vitesse',
+  title: 'Soft And Messy',
   meta: [
-    { name: 'description', content: 'Opinionated Vite Starter Template' },
+    { name: 'description', content: 'QUEERFEMINISTISCHE AKTIVISTISCHE PERSPEKTIVEN IM DESIGN' },
   ],
 })
 
