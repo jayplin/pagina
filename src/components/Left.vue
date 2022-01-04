@@ -4,8 +4,8 @@
 
 <template>
   <div>
-    <div class="flex flex-col justify-between  h-full text-fuchsia-300 font-bold ">
-      <div class="flex justify-between p-2">
+    <div class="flex flex-col justify-between p-5 h-full text-fuchsia-300 font-bold text-xl ">
+      <div class="flex justify-between">
         <router-link :to="{ hash: '#about'}">
           ABOUT
         </router-link>
@@ -18,13 +18,13 @@
         <img src="/logopink.png" alt="">
       </div>
 
-      <div class="flex justify-between p-2">
+      <div class="flex justify-between">
         <router-link to="/imprint">
           IMPRINT
         </router-link>
 
         <router-link :to="{ hash: '#zines' }">
-          INSTAGRAMM
+          INSTAGRAM
         </router-link>
         <a href="mailto:mail@softandmessy">CONTACT</a>
       </div>

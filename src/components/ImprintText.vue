@@ -6,7 +6,7 @@ const main = useMainStore()
 
 <template>
   <div id="about" class="text-white p-5">
-    <span class="text-3xl" style="white-space: pre-line">
+    <span class="text-3xl whitespace-pre-line">
       {{ main.content?.Imprint }}
     </span>
   </div>
