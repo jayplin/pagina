@@ -8,7 +8,7 @@ const main = useMainStore()
   <div id="about" class="text-fuchsia-300 p-5">
     <img src="/logopink.png" class="w-96" alt="">
 
-    <span class="text-4xl whitespace-pre-line">
+    <span class="lg:text-3xl text-2xl whitespace-pre-line">
       {{ main.content?.ImprintAddress }}
     </span>
   </div>
