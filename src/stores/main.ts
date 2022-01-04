@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { acceptHMRUpdate, defineStore } from 'pinia'
 import type { Poster } from '~/models/posters'
 
@@ -23,51 +24,32 @@ export const useMainStore = defineStore('main', {
   },
   actions: {
     async getNewsletters() {
-      fetch('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*', {
+      axios('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-
         },
       })
-        .then(async(res) => {
-          // a non-200 response code
-          if (!res.ok) {
-            // create error instance with HTTP status text
-            const error = new Error(res.statusText)
-            throw error
-          }
-
-          const response = await res.json()
-          this.newsletters = response.data
+        .then((response) => {
+          this.newsletters = response.data.data
         })
-        .catch((error) => {
-          return error
+        .catch((e) => {
+          console.log(e)
         })
     },
     async getContent() {
-      fetch('https://softandmessy-strapi.herokuapp.com/api/content?populate=*', {
+      axios('https://softandmessy-strapi.herokuapp.com/api/content?populate=*', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-
         },
       })
-        .then(async(res) => {
-          // a non-200 response code
-          if (!res.ok) {
-            // create error instance with HTTP status text
-            const error = new Error(res.statusText)
-            throw error
-          }
-
-          const response = await res.json()
-          this.content = response.data
+        .then((response) => {
+          this.content = response.data.data
+          console.log(response.data.data)
         })
-        .catch((error) => {
-          return error
+        .catch((e) => {
+          console.log(e)
         })
     },
   },
