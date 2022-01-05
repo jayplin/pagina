@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <div class="flex flex-col justify-between p-5 h-full text-fuchsia-300 font-bold text-xl ">
+    <div class="flex flex-col justify-between p-5 h-screen text-fuchsia-300 font-bold text-xl ">
       <div class="flex justify-between">
         <router-link :to="{ hash: '#about'}">
           ABOUT
