@@ -28,15 +28,16 @@
     window.cookieconsent.initialise({
       palette: {
         popup: {
-          background: '#3c404d',
-          text: '#d6d6d6',
+          background: '#ff97ff',
+          text: '#ffffff',
         },
         button: {
-          background: '#ff69ff',
+          background: '#ffffff',
+    
         },
       },
-      theme: 'classic',
-      type: 'opt-in',
+      theme: 'edgeless',
+      type: 'info',
       content: {
         message: 'This website uses cookies to ensure you get the best experience on our website.',
         dismiss: 'Got it',
@@ -47,4 +48,12 @@
     })
     </script>
 </body>
+<style>
+  
+  .cc-window.cc-banner {
+    border-style: solid;
+border-width: thick;
+border-color: white;
+  }
+  </style>
 </html>
