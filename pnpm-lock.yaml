@@ -42,6 +42,7 @@ specifiers:
   vite-ssg: ^0.17.2
   vitest: ^0.0.113
   vue: ^3.2.26
+  vue-content-loader: ^2.0.1
   vue-demi: ^0.12.1
   vue-i18n: ^9.1.9
   vue-inline-svg: ^3.1.0
@@ -61,6 +62,7 @@ dependencies:
   prism-theme-vars: 0.2.2
   svg-pan-zoom: 3.6.1
   vue: 3.2.26
+  vue-content-loader: 2.0.1_vue@3.2.26
   vue-demi: 0.12.1_vue@3.2.26
   vue-i18n: 9.1.9_vue@3.2.26
   vue-inline-svg: 3.1.0_vue@3.2.26
@@ -7220,6 +7222,14 @@ packages:
       vscode-pug-languageservice: 0.30.0
       vscode-typescript-languageservice: 0.30.0
     dev: true
+
+  /vue-content-loader/2.0.1_vue@3.2.26:
+    resolution: {integrity: sha512-pkof4+q2xmzNEdhqelxtJejeP/vQUJtLle4/v2ueG+HURqM9Q/GIGC8GJ2bVVWeLfTDET51jqimwQdmxJTlu0g==}
+    peerDependencies:
+      vue: ^3
+    dependencies:
+      vue: 3.2.26
+    dev: false
 
   /vue-demi/0.12.1_vue@3.2.26:
     resolution: {integrity: sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==}

@@ -6,6 +6,7 @@ import {
 } from 'vue'
 // import svgPanZoom from 'svg-pan-zoom'
 import panzoom from 'panzoom'
+import { ListLoader } from 'vue-content-loader'
 
 const props = defineProps<{ svg: string; bgColor: string }>()
 
@@ -25,15 +26,22 @@ onMounted(() =>
 
 )
 
-const svgBgColor = computed(() => props.bgColor)
-
+const loaded = ref(false)
+function onImgLoad() {
+  loaded.value = true
+  console.log(loaded.value)
+}
 </script>
 
 <template>
-  <div class="overflow-hidden" :style="`background-color: ${props.bgColor}`">
-    <div ref="poster" class="h-full w-full bg-white">
-      <!-- <inline-svg src="/news.svg" /> -->
-      <img :src="props.svg" alt="">
+  <div class="overflow-hidden h-full" :style="`background-color: ${props.bgColor}`">
+    <div ref="poster" class="h-full w-full ">
+      <img
+        :src="props.svg"
+        alt=""
+        @load="onImgLoad"
+      >
     </div>
+    <ListLoader v-if="!loaded" />
   </div>
 </template>
