@@ -23,9 +23,11 @@ const main = useMainStore()
       </div>
     </div>
     <div class="flex justify-center">
-      <p class=" lg:text-4xl text-3xl">
-        FOLLOW FOR MORE
-      </p>
+      <a href="https://www.instagram.com/soft.andmessy/" target="_blank">
+        <p class=" lg:text-4xl text-3xl">
+          FOLLOW FOR MORE
+        </p>
+      </a>
     </div>
   </div>
 </template>

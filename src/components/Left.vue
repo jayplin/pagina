@@ -23,9 +23,8 @@
           IMPRINT
         </router-link>
 
-        <router-link :to="{ hash: '#zines' }">
-          INSTAGRAM
-        </router-link>
+        <a href="https://www.instagram.com/soft.andmessy/" target="_blank">INSTAGRAM</a>
+
         <a href="mailto:mail@softandmessy.de">CONTACT</a>
       </div>
     </div>
