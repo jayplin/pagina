@@ -8,8 +8,8 @@ const main = useMainStore()
 <template>
   <div>
     <span
-      class="lg:text-4xl text-2xl font-semibold whitespace-pre-line "
-      style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc;"
+      class="lg:text-4xl text-2xl  whitespace-pre-line font-sans"
+      style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc; FONT-FAMILY: arial;"
     >
       {{ main.content?.Pitch }}
     </span>
