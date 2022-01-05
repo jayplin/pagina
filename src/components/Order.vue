@@ -16,7 +16,7 @@ const main = useMainStore()
         <!-- <img class="bg-dark-300" src="/logopink.png" alt=""> -->
 
         <p
-          class="absolute text-center top-1/5 translate-y-1/2 translate-x-1/2 lg:text-3xl font-semibold"
+          class="absolute text-center top-15/100 translate-y-1/2 translate-x-1/2 text-xl lg:text-3xl font-semibold"
         >
           {{ main.content.OrderText }}
         </p>
