@@ -1,12 +1,15 @@
 <script setup lang="ts">
 
 import {
-  onMounted,
-  ref,
+  computed,
+  onMounted, ref,
 } from 'vue'
+
 // import svgPanZoom from 'svg-pan-zoom'
 import panzoom from 'panzoom'
 import { ListLoader } from 'vue-content-loader'
+
+const router = useRouter()
 
 const props = defineProps<{ svg: string; bgColor: string }>()
 
@@ -31,6 +34,7 @@ function onImgLoad() {
   loaded.value = true
   console.log(loaded.value)
 }
+
 </script>
 
 <template>
@@ -44,4 +48,16 @@ function onImgLoad() {
     </div>
     <ListLoader v-if="!loaded" />
   </div>
+  <div class="fixed top-1 left-1 z-10 ">
+    <button class="opacity-80 hover:opacity-100 focus:outline-none" @click="router.back()">
+      <carbon-chevron-left
+        class="inline-block bg-white text-2xl"
+        :style="`color: ${props.bgColor}`"
+      />
+    </button>
+  </div>
 </template>
+
+<style>
+
+</style>
