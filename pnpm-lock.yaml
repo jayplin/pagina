@@ -43,7 +43,6 @@ specifiers:
   vitest: ^0.0.113
   vue: ^3.2.26
   vue-content-loader: ^2.0.1
-  vue-cookie-law: ^1.13.3
   vue-demi: ^0.12.1
   vue-i18n: ^9.1.9
   vue-inline-svg: ^3.1.0
@@ -64,7 +63,6 @@ dependencies:
   svg-pan-zoom: 3.6.1
   vue: 3.2.26
   vue-content-loader: 2.0.1_vue@3.2.26
-  vue-cookie-law: 1.13.3
   vue-demi: 0.12.1_vue@3.2.26
   vue-i18n: 9.1.9_vue@3.2.26
   vue-inline-svg: 3.1.0_vue@3.2.26
@@ -6520,10 +6518,6 @@ packages:
     resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
     dev: true
 
-  /tiny-cookie/2.3.2:
-    resolution: {integrity: sha512-qbymkVh+6+Gc/c9sqnvbG+dOHH6bschjphK3SHgIfT6h/t+63GBL37JXNoXEc6u/+BcwU6XmaWUuf19ouLVtPg==}
-    dev: false
-
   /tinypool/0.0.6:
     resolution: {integrity: sha512-E9vY6eq/Q7fUlSt69cY3y7qXNbVOFaxP+lAEDMKMObLrmO0MmEdUPyjOMgepoMDw/ps/sazl7WIQglnUrunnLg==}
     engines: {node: '>=14.0.0'}
@@ -7235,13 +7229,6 @@ packages:
       vue: ^3
     dependencies:
       vue: 3.2.26
-    dev: false
-
-  /vue-cookie-law/1.13.3:
-    resolution: {integrity: sha512-n5ef5/dAB4cyUz6OaolYZEeyfV/fcsVU/RCTT/aHXcyjNbXf7EU2TgaOlMwu+cTOjdn5tBJKyKP6lr6IOUf9bg==}
-    engines: {node: '>= 4.0.0', npm: '>= 3.0.0'}
-    dependencies:
-      tiny-cookie: 2.3.2
     dev: false
 
   /vue-demi/0.12.1_vue@3.2.26:
