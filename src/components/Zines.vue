@@ -9,7 +9,7 @@ const main = useMainStore()
   <div>
     <div v-for="(zine, index) in main.newsletters" :key="zine.id" class="py-6 lg:py-15">
       <p
-        class="text-4xl m-auto text-center font-semibold whitespace-pre-line"
+        class="text-4xl m-auto text-center  whitespace-pre-line"
         style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc;
 "
       >

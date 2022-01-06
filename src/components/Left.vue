@@ -15,7 +15,7 @@
         </router-link>
       </div>
       <div class="flex justify-center items-center">
-        <img src="/logopink.png" alt="">
+        <img src="/logopink.png" class="w-2/3 lg:w-4/5  " alt="">
       </div>
 
       <div class="flex justify-between">
