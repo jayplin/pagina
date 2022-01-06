@@ -2,7 +2,8 @@
 import { useMainStore } from '~/stores/main'
 
 const main = useMainStore()
-
+await main.getContent()
+await main.getNewsletters()
 </script>
 
 <template>

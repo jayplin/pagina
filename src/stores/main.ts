@@ -31,7 +31,7 @@ export const useMainStore = defineStore('main', {
   },
   actions: {
     async getNewsletters() {
-      axios('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*&sort[0]=id%3Aasc', {
+      await axios('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*&sort[0]=id%3Aasc', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
@@ -45,7 +45,7 @@ export const useMainStore = defineStore('main', {
         })
     },
     async getContent() {
-      axios('https://softandmessy-strapi.herokuapp.com/api/content?populate=*', {
+      await axios('https://softandmessy-strapi.herokuapp.com/api/content?populate=*', {
         method: 'get',
         headers: {
           'content-type': 'application/json',

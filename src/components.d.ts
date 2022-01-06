@@ -14,6 +14,7 @@ declare module 'vue' {
     Left: typeof import('./components/Left.vue')['default']
     Order: typeof import('./components/Order.vue')['default']
     README: typeof import('./components/README.md')['default']
+    SkeletonIndex: typeof import('./components/SkeletonIndex.vue')['default']
     Zines: typeof import('./components/Zines.vue')['default']
     ZoomArea: typeof import('./components/ZoomArea.vue')['default']
   }

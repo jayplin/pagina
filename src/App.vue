@@ -2,9 +2,9 @@
 // https://github.com/vueuse/head
 // you can use this to manipulate the document head in any components,
 
-import { useMainStore } from './stores/main'
-
 // they will be rendered correctly in the html results with vite-ssg
+import { useMainStore } from '~/stores/main'
+
 useHead({
   title: 'Soft And Messy',
   meta: [
@@ -14,8 +14,6 @@ useHead({
 
 const main = useMainStore()
 main.getNewsletters()
-main.getContent()
-
 </script>
 
 <template>
