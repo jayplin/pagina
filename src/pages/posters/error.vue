@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="text-xl ">
     Poster not found
   </div>
 </template>
