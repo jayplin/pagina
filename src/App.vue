@@ -13,7 +13,7 @@ useHead({
 })
 
 const main = useMainStore()
-main.getNewsletters()
+main.getPosters()
 </script>
 
 <template>

@@ -10,10 +10,8 @@ const main = useMainStore()
 const id = Number(props.id)
 
 main.$subscribe((mutation, state) => {
-  if (main.newsletters.length) {
-    if (main.getNewsletter(id))
-      console.log(main.getNewsletter(id))
-    else
+  if (main.posters.length) {
+    if (!main.getPoster(id))
       router.push('/posters/error')
   }
 })

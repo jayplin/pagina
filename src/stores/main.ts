@@ -6,29 +6,29 @@ import type { Poster } from '~/models/posters'
 export const useMainStore = defineStore('main', {
 
   state: () => ({
-    newsletters: [] as Array<Poster>,
+    posters: [] as Array<Poster>,
     content: {} as Content,
 
   }),
   getters: {
-    getNewsletter: (state) => {
-      return (id: number) => state.newsletters[id - 1]
+    getPoster: (state) => {
+      return (id: number) => state.posters[id - 1]
     },
     getSvg: (state) => {
       return (id: number) => {
-        const newsletter = state.newsletters[id - 1]
-        return newsletter?.attributes?.Svg.data.attributes.url
+        const poster = state.posters[id - 1]
+        return poster?.attributes?.Svg.data.attributes.url
       }
     },
     getSvgColor: (state) => {
       return (id: number) => {
-        const newsletter = state.newsletters[id - 1]
-        return newsletter?.attributes?.SvgBackgroundColorHex
+        const poster = state.posters[id - 1]
+        return poster?.attributes?.SvgBackgroundColorHex
       }
     },
   },
   actions: {
-    async getNewsletters() {
+    async getPosters() {
       await axios('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*&sort[0]=id%3Aasc', {
         method: 'get',
         headers: {
@@ -36,7 +36,7 @@ export const useMainStore = defineStore('main', {
         },
       })
         .then((response) => {
-          this.newsletters = response.data.data
+          this.posters = response.data.data
         })
         .catch((e) => {
           console.log(e)
