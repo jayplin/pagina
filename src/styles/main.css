@@ -27,6 +27,12 @@ html.dark {
   height: 2px;
 }
 
+.cc-window {
+      border-style: solid;
+      border-width: thick;
+      border-color: white;
+}
+
 .btn {
   @apply px-4 py-1 rounded inline-block
     bg-fuchsia-400 text-white cursor-pointer
