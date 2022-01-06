@@ -5,7 +5,7 @@ const main = useMainStore()
 </script>
 
 <template>
-  <div id="about" class="text-fuchsia-300 p-5">
+  <div id="about" class="text-[#ff97ff] p-5">
     <img src="/logopink.png" class="w-96" alt="">
 
     <span class="lg:text-3xl text-2xl whitespace-pre-line">

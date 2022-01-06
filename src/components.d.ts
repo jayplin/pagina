@@ -7,6 +7,7 @@ declare module 'vue' {
     About: typeof import('./components/About.vue')['default']
     Address: typeof import('./components/Address.vue')['default']
     CarbonChevronLeft: typeof import('~icons/carbon/chevron-left')['default']
+    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     ImprintText: typeof import('./components/ImprintText.vue')['default']
