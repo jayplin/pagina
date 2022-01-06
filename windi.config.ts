@@ -35,9 +35,7 @@ export default defineConfig({
             h3: { color: 'inherit' },
             h4: { color: 'inherit' },
             code: { color: 'inherit' },
-            fontFamily: {
-              sans: ['Arial', 'Helvetica', 'sans-serif'],
-            },
+
           },
         },
       },
