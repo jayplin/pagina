@@ -1,31 +1,28 @@
 <script setup lang="ts">
 import SkeletonIndex from '~/components/SkeletonIndex.vue'
+import { useMainStore } from '~/stores/main'
+
+const main = useMainStore()
 
 </script>
 
 <template>
   <div id="about" class="text-white lg:p-18 p-4">
-    <Suspense>
-      <template #default>
-        <div>
-          <section>
-            <About />
-          </section>
+    <div v-if="main.posters.length">
+      <section>
+        <About />
+      </section>
 
-          <section id="zines">
-            <Zines />
-          </section>
+      <section id="zines">
+        <Zines />
+      </section>
 
-          <section>
-            <Order />
-          </section>
-        </div>
-      </template>
+      <section>
+        <Order />
+      </section>
+    </div>
 
-      <template #fallback>
-        <SkeletonIndex />
-      </template>
-    </Suspense>
+    <SkeletonIndex v-else />
   </div>
 </template>
 

@@ -13,6 +13,7 @@ useHead({
 })
 
 const main = useMainStore()
+main.getContent()
 main.getPosters()
 </script>
 
