@@ -8,7 +8,7 @@ const main = useMainStore()
 <template>
   <div>
     <span
-      class="lg:text-5xl text-2xl lg:leading-[1.1]  whitespace-pre-line"
+      class="lg:text-[3.4rem] text-2xl lg:leading-[1.1]  whitespace-pre-line"
       style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc; "
     >
       {{ main.content?.Pitch }}
