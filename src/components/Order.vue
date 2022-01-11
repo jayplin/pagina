@@ -10,8 +10,8 @@ const main = useMainStore()
     style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc;
 "
   >
-    <div class="flex justify-center">
-      <div class="relative flex justify-center w-full ">
+    <div class="flex justify-center p-20">
+      <div class="relative flex justify-center w-full  ">
         <img class="" :src="main.content.OrderBackgroundPicture?.data?.attributes.url">
         <!-- <img class="bg-dark-300" src="/logopink.png" alt=""> -->
 
