@@ -1,4 +1,3 @@
-import { createWebHistory } from 'vue-router'
 // register vue composition api globally
 import { ViteSSG } from 'vite-ssg'
 import generatedRoutes from 'virtual:generated-pages'
@@ -32,10 +31,6 @@ export const createApp = ViteSSG(
             element.scrollIntoView({ block: 'start', behavior: 'smooth' })
         }, 500)
 
-        // NOTE: This doesn't work for Vue 3
-        // return {selector: to.hash}
-
-        // This does
         return { el: to.hash }
       }
       else if (savedPosition) {

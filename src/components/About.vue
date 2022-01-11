@@ -2,15 +2,14 @@
 import { useMainStore } from '~/stores/main'
 
 const main = useMainStore()
-await main.getContent()
-await main.getPosters()
+
 </script>
 
 <template>
   <div>
     <span
-      class="lg:text-4xl text-2xl  whitespace-pre-line font-sans"
-      style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc; FONT-FAMILY: arial;"
+      class="lg:text-5xl text-2xl lg:leading-[1.1]  whitespace-pre-line"
+      style="text-shadow: 1px 1px 5px #fff, 1px -1px 31px #ccc; "
     >
       {{ main.content?.Pitch }}
     </span>
