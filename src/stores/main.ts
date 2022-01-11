@@ -29,7 +29,7 @@ export const useMainStore = defineStore('main', {
   },
   actions: {
     async getPosters() {
-      await axios('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*&sort[0]=id%3Aasc', {
+      await axios('https://softandmessy-strapi.herokuapp.com/api/posters?populate=*&sort[0]=Order%3Aasc', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
