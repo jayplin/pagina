@@ -11,7 +11,7 @@ const main = useMainStore()
 "
   >
     <div class="flex justify-center">
-      <div class="relative justify-center ">
+      <div class="relative flex justify-center w-full ">
         <img class="" :src="main.content.OrderBackgroundPicture?.data?.attributes.url">
         <!-- <img class="bg-dark-300" src="/logopink.png" alt=""> -->
 
