@@ -5,7 +5,7 @@ const main = useMainStore()
 </script>
 
 <template>
-  <div id="about" class="text-[#ff97ff] p-5 flex flex-col justify-between">
+  <div id="about" class="text-[#ff97ff] p-5 flex h-screen flex-col justify-between">
     <div>
       <img src="/logopink.png" class="w-96" alt="">
       <span class="lg:text-3xl text-2xl whitespace-pre-line">
