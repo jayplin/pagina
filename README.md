@@ -4,6 +4,16 @@
 Webapp to access posters of soft and messy magazine in a digital way.  
 
 
+## Tech Stack
+
+🎨 **Client:** Vue3, Pinia, WindiCSS, PWA
+
+📦 **Server:** Strapi Headless CMS
+
+📑 **Analytics:** Umami (Privacy-focused alternative to Google Analytics.) 
+
+
+
 ## Installation
 
 
