@@ -41,11 +41,3 @@ Development server
 Hosted on Netlify. Deployment is triggered on push. 
 
 
-## Tech Stack
-
-🎨 **Client:** Vue3, Pinia, WindiCSS, PWA
-
-📦 **Server:** Strapi Headless CMS
-
-📑 **Analytics:** Umami (Privacy-focused alternative to Google Analytics.) 
-
