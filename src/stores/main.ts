@@ -29,7 +29,7 @@ export const useMainStore = defineStore('main', {
   },
   actions: {
     async getPosters() {
-      await axios('https://softandmessy-strapi.onrender.com/api/posters?populate=*&sort[0]=Order%3Aasc', {
+      await axios('https://sam.content.canivete.eu/api/posters?populate=*&sort[0]=Order%3Aasc', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
@@ -43,7 +43,7 @@ export const useMainStore = defineStore('main', {
         })
     },
     async getContent() {
-      await axios('https://softandmessy-strapi.onrender.com/api/content?populate=*', {
+      await axios('https://sam.content.canivete.eu/api/content?populate=*', {
         method: 'get',
         headers: {
           'content-type': 'application/json',
